@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,5 +17,10 @@
   "devDependencies": {
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.2"
+  },
+
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
   }
 }
