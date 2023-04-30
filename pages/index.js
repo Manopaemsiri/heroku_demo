@@ -16,9 +16,13 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <br />
+        <br />
+
+        <img src="/manop.jpg" alt="Profile" width="300" height="300" />
+
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Manop Pongsopha :)
         </p>
 
         <div className={styles.grid}>
